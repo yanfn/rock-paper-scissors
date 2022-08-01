@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <script src="main.js"></script>
+        
+    <div id="container">
+        <div id="container2">
+            <div class="item">    
+                <h4>You:</h4>
+                <p id="playerScore">0</p>
+            </div>
+
+            <div class="item">
+                <h4>Bot:</h4>
+                <p id="botScore">0</p>
+            </div>
+
+            <div class="item"> 
+                <h4>Draw:</h4>
+                <p id="drawScore">0</p>
+            
+            </div>
+         
+        </div>
+
+        <div id="btns">
+            <button id="rock">Rock</button> 
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <button id="reset" onclick="location.reload()">Reset</button>
+        </div>
+
+    </div>
 </body>
 </html>

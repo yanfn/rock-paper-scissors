@@ -1,0 +1,29 @@
+
+
+*{
+    margin: 0;
+}
+
+#container{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2{
+    display: flex;
+    gap: 2rem;
+}
+
+.item{
+    display: flex;
+    gap: 1rem;
+}
+
+.item h4, .item p{
+    margin: 0;
+    padding: 0;
+}
